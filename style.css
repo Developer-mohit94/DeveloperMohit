@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+
+}
+
+
+.container {
+    margin: 0px;
+    background-color: rgb(229 229 253);
+    min-height: 100vh;
+    border: 10px solid rgb(29 30 76);
+}
+
+.upper-box {
+    /* border: 2px solid black; */
+    margin: 70px 180px 0px 180px;
+}
+
+img {
+    height: 20em;
+    width: 24vw;
+    border-radius: 160px;
+}
+
+.upper-box-name {
+    color: rgb(29 30 76);
+    /* border: 2px solid black; */
+    display: flex;
+    float: right;
+    position: relative;
+    top: 225px;
+    font-size: 20px;
+}
+
+.upper-box-year {
+    /* border: 2px solid black; */
+    display: flex;
+    float: right;
+    position: absolute;
+    top: 269px;
+    right: 193px;
+    font-size: 25px;
+}
+
+.missileman {
+    /* border: 2px solid green; */
+    margin: 0px 180px 0px 180px;
+    font-size: 30px;
+}
+
+.aboutapj {
+    /* border: 2px solid green; */
+    margin: 0px 180px;
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+
+}
+
+.Biographies {
+    /* border: 2px solid green; */
+    margin: 0px 180px;
+    font-size: 20px;
+}
+
+.list {
+    /* border: 2px solid green; */
+    margin: 0px 201px;
+}
+
+.list ul li {
+    padding: 6px;
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+
+
+}
+
+.footer {
+    /* border: 2px solid green; */
+    margin: 0px 0px 0px 800px;
+    font-family: "Poppins", sans-serif;
+
+}
+
+@media only screen and (min-width: 0px) and (max-width: 390px) {
+    .container {
+        margin: 0px;
+        background-color: rgb(229 229 253);
+        min-height: 100vh;
+        border: 5px solid rgb(29 30 76);
+        width: 221px;
+
+    }
+
+    body {
+        padding: 0px;
+        margin: 0px;
+    }
+
+    * {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+
+    .upper-box {
+        border: 2px solid rgb(0 0 0);
+        margin: 20px 11px 186px 11px;
+        min-height: 100vh;
+    }
+
+    img {
+        height: 5em;
+        width: 20vw;
+        border-radius: 160px;
+        float: left;
+    }
+
+    .upper-box-name {
+        color: rgb(29 30 76);
+        float: right;
+        position: relative;
+        top: 12px;
+        font-size: 7px;
+    }
+
+    .upper-box-year {
+        /* border: 2px solid rgb(0 0 0); */
+        display: flex;
+        /* float: right; */
+        position: absolute;
+        top: 135px;
+        right: 187px;
+        font-size: 12px;
+    }
+
+    .missileman {
+        border: 2px solid black;
+        font-size: 13px;
+        position: absolute;
+        top: 168px;
+        left: -164px;
+    }
+
+    .aboutapj {
+        border: 2px solid rgb(0 128 0);
+        margin: 0px 13px;
+        font-size: 12px;
+        font-family: "Poppins", sans-serif;
+        position: absolute;
+        top: 197px;
+        box-sizing: border-box;
+        width: 186px;
+
+    }
+
+    .Biographies {
+        border: 2px solid rgb(0 128 0);
+        margin: 0px 11px;
+        font-size: 20px;
+        position: absolute;
+        top: 819px;
+    }
+
+    .list {
+        border: 2px solid rgb(0 128 0);
+        margin: 0px 11px;
+        position: absolute;
+        top: 845px;
+        width: 189px;
+    }
+
+    .list ul li {
+        padding: 5px;
+        font-size: 10px;
+        font-family: "Poppins", sans-serif;
+
+
+    }
+
+    .footer {
+        border: 2px solid rgb(0 128 0);
+        margin: 0px 0px 0px 0px;
+        font-family: "Poppins", sans-serif;
+        position: absolute;
+        top: 1088px;
+
+    }
+}
